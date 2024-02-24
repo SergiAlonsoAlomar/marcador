@@ -1,0 +1,15 @@
+-----------------MARCADOR-PADEL-----------------
+
+Esta es una pagina que he hecho como mi primer miniproyecto personal, he decidido usar laravel, ya que quiero aprender estre FrameWork para poder hacer otros proyectos más grandes.
+
+Esta pagina consiste en un marcador de padel interactivo y dinámico, usando la tecnologia JavaScript para poder conseguirlo, tambien se usa php y html para poder tratar y mostrar datos de manera organizada y visual para el usuario. Tambien se usa una BBDD para poder almacenar los datos de los usuarios y de los partidos.
+
+La estructura de la pagina es la siguiente:
+    -El usuario se registrara con los siguientes datos: Nombre, Apellidos, fecha de nacimiento, correo electronico, nombre de usuario, contraseña.
+    -El usuario podrá iniciar sesion con su nombre de usuario o su correo electronico y su contraseña.
+    -El perfil del usuario podrá ser editado, pudiendo cambiar su Nombre, Apellidos, correo electronico y contraseña y pudiendo añadir una foto de perfil y seleccionar/deseleccionar el campo 'Mostrar mis datos'. Tambien se mostrará una tabla con los partidos jugados, los partidos ganados, perdidos y no acabados, sus rivales mas frecuentes, los rivales más vencidos y con los que más han perdido, compañero mas frecuente.
+    -En el inicio se verá una tabla con los datos de algunos jugadores, ordenados por mas partidos jugados y ganados, simepre y cuando, en su perfil este seleccionado el campo 'Mostrar mis datos'.
+    -Tabla con los datos de mis amigos.
+    -Ver amigos.
+    -Se podrá generar un partido nuevo. En este apartado se mostrara un formulario, el cual tiene que ser rellenado poniendo el nombre de usuario de los rivales y compañero del partido. Tambien se puede seleccionar si se va a jugar con punto de oro o con iguales y ventaja (por defecto se jugará con punto de oro).
+    -Una vez rellenado el formulario, se verá el marcador con las abreviaciones de los nombres de usuario de los jugadores del partido (3 letras), botones para sumar puntos y, en caso de equivocarnos, restar, boton para empezar el partido, el cual hara que se muestre el tiempo de partido y un boton de finalizar partido, por si no ha dado tiempo a acabarlo (este partido no contaria como victoria para ninguna pareja).
